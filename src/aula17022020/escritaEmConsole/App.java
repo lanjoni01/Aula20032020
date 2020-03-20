@@ -9,14 +9,18 @@ public class App {
 	// ----------------------------
 	public static void main(String[] args) {
 		System.out.println("Hello World! :D");
+		
 		System.out.println(somar(20, 30));
 		System.out.println(somar(-20, 30));
+		
 		System.out.println(dividir(20, 30));
 		System.out.println(dividir(-20, 30));
+		
 		System.out.println(multiplicar(10, 20, 30));
 		System.out.println(multiplicar(10, -20, 30));
 		System.out.println(multiplicar(20, 30));
 		System.out.println(multiplicar(-20, 30));
+		
 		System.out.println("O maior é: " + definirMaior(200, 80));
 		System.out.println("O menor é: " + definirMenor(200, 80));
 		
@@ -33,6 +37,7 @@ public class App {
 		}
 		*/
 	}
+	
 	private static String[] criarArrayDeCidades(int tamanho, String cidade) {
 		String[] arrayDeCidades = new String[tamanho];
 		//percorrer o array jogando a cidade recebida por parâmetro para todas as posições do array.
